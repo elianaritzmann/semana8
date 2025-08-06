@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div id='background'>
         <header>
           <div id='headertext'>
             <h1>Energia Solar 365</h1>

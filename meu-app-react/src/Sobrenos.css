@@ -12,3 +12,14 @@ img{
 p{
     max-width: 70%;
 }
+#dados{
+    background-color: #fff;
+    padding: 2%;
+    max-width: 69%;
+    border-radius: 2%;
+}
+h3{
+     color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
