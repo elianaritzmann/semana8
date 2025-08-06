@@ -1,0 +1,14 @@
+#sobrenos{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 70%;
+    border-radius: 2%;
+}
+p{
+    max-width: 70%;
+}

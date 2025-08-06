@@ -2,6 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Navbar.jsx'
 import './Navbar.css'
+import Sobrenos from './Sobrenos.jsx'
+import './Sobrenos.css'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,7 +18,9 @@ function App() {
           </div>
           <Navbar ></Navbar>
         </header>
-       
+        <main>
+          <Sobrenos></Sobrenos>
+        </main>
       </div>
      
     </>
