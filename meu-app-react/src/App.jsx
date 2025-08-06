@@ -18,7 +18,7 @@ function App() {
           </div>
           <Navbar ></Navbar>
         </header>
-        <main>
+        <main id='sobre-nos'>
           <Sobrenos></Sobrenos>
         </main>
       </div>
