@@ -7,6 +7,7 @@ import './components/Sobrenos.css'
 import Porqueinvestir from './components/Porqueinvestir.jsx'
 import Produtos from './components/Produtos.jsx'
 import './components/Produtos.css'
+import Orcamento from './components/Orcamento.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,6 +25,7 @@ function App() {
           <Sobrenos id='sobre-nos'></Sobrenos>
           <Porqueinvestir id='porqueinvestir'></Porqueinvestir>
           <Produtos id='produtos'></Produtos>
+          <Orcamento></Orcamento>
         </main>
       </div>
      
