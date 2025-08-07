@@ -8,6 +8,7 @@ import Porqueinvestir from './components/Porqueinvestir.jsx'
 import Produtos from './components/Produtos.jsx'
 import './components/Produtos.css'
 import Orcamento from './components/Orcamento.jsx'
+import Footer from './components/Footer.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,6 +28,7 @@ function App() {
           <Produtos id='produtos'></Produtos>
           <Orcamento></Orcamento>
         </main>
+         <Footer></Footer>
       </div>
      
     </>

@@ -1,0 +1,15 @@
+#footer{
+   background-color: rgb(16, 72, 61);
+   color: #ffff;
+   padding-left: 20px;
+   padding-top: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#redes a{
+    font-weight: lighter;
+}
+#redes{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
