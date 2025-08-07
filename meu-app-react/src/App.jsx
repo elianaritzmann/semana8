@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Navbar.jsx'
-import './Navbar.css'
-import Sobrenos from './Sobrenos.jsx'
-import './Sobrenos.css'
-
+import Navbar from './components/Navbar.jsx'
+import './components/Navbar.css'
+import Sobrenos from './components/Sobrenos.jsx'
+import './components/Sobrenos.css'
+import Porqueinvestir from './components/Porqueinvestir.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,8 +18,9 @@ function App() {
           </div>
           <Navbar ></Navbar>
         </header>
-        <main id='sobre-nos'>
-          <Sobrenos></Sobrenos>
+        <main >
+          <Sobrenos id='sobre-nos'></Sobrenos>
+          <Porqueinvestir id='porqueinvestir'></Porqueinvestir>
         </main>
       </div>
      
